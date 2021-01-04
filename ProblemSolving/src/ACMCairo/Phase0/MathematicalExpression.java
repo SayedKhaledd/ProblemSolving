@@ -6,31 +6,26 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Scanner;
 
-/**
- * didn't submit yet
- */
 public class MathematicalExpression {
 
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+Scanner scan=new Scanner(System.in);
+int a,b,c;
+char s,q;
+a=scan.nextInt();
+s=scan.next().charAt(0);
+b=scan.nextInt();
+
+q=scan.next().charAt(0);
+c=scan.nextInt();
 
 
-        int a = bufferedReader.read() - 48;
-        bufferedReader.read();
-        char s = (char) bufferedReader.read();
-        bufferedReader.read();
-
-        int b = bufferedReader.read() - 48;
-        bufferedReader.read();
-
-        char q = (char) bufferedReader.read();
-        bufferedReader.read();
-
-        int c = bufferedReader.read() - 48;
-        //System.out.println(a+" "+s+" "+b+" "+q+" "+c);
+       // System.out.println(a+" "+s+" "+b+" "+q+" "+c);
         switch (s) {
             case '+':
-                if (a + b == c) System.out.println("Yes");
+                if (a + b == c)
+                    System.out.println("Yes");
                 else System.out.println(a + b);
                 break;
             case '-':
