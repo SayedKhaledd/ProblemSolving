@@ -1,6 +1,8 @@
 package ACMCairo.Phase0;
 //https://codeforces.com/group/MWSDmqGsZm/contest/219856/problem/L
+
 import java.util.*;
+
 /**
  * didn't submit yet
  */
@@ -70,9 +72,13 @@ public class StringFunctions {
     }
 
     public static void reverse(StringBuilder s, int l, int r) {
-//        l= Math.min(l, r);
-//
-//        l--;
+     if(l>r){
+         int temp=l;
+         l=r;
+         r=temp;
+
+     }
+     l--;
 
         StringBuilder stringBuilder = new StringBuilder(s.substring(l, r));
         stringBuilder.reverse();
@@ -88,8 +94,12 @@ public class StringFunctions {
     }
 
     public static void sort(StringBuilder s, int l, int r) {
-        l = Math.min(l, r);
+        if(l>r){
+            int temp=l;
+            l=r;
+            r=temp;
 
+        }
         l--;
 
         char[] chars = s.substring(l, r).toCharArray();
@@ -107,8 +117,12 @@ public class StringFunctions {
     }
 
     public static void substr(StringBuilder s, int l, int r) {
-        l = Math.min(l, r);
+        if(l>r){
+            int temp=l;
+            l=r;
+            r=temp;
 
+        }
         l--;
         System.out.println(s.substring(l, r));
     }
