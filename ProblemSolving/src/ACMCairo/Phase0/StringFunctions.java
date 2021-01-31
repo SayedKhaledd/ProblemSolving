@@ -3,9 +3,7 @@ package ACMCairo.Phase0;
 
 import java.util.*;
 
-/**
- * didn't submit yet
- */
+
 public class StringFunctions {
     public static void main(String[] args) {
         StringBuilder s;
