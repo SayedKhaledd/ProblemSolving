@@ -17,7 +17,7 @@ public class AVG {
                 int x = scan.nextInt();
                 sum += x;
             }
-            System.out.println(sum / n);
+            System.out.println(sum /n);
 
         }
     }

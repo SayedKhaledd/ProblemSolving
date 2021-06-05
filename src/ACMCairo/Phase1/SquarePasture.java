@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 //http://www.usaco.org/index.php?page=viewproblem2&cpid=663
-public class SquarePasture {
+public class  SquarePasture {
     public static void main(String[] args) throws IOException {
         ArrayList<String> input = new ArrayList<>();
         bufferReaderToList("src/ACMCairo/Phase1/squarepasture.in", input);
