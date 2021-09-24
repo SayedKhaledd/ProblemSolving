@@ -1,30 +1,22 @@
-import java.io.File;
-import java.sql.SQLOutput;
-import java.util.*;
+import java.util.Scanner;
 
 public class Test {
     public static void main(String[] args) {
-
         Scanner scan = new Scanner(System.in);
+        int[] freq = new int[26];
         int n = scan.nextInt();
-        int x = scan.nextInt();
-        int arr[] = new int[n];
-        for (int i = 0; i < n; i++) {
-            arr[i] = scan.nextInt();
+        String s = scan.next();
+        for (int i = 0; i < s.length(); i++) {
+            freq[(int) (s.charAt(i) - 'a')]++;
 
         }
-        boolean check = false;
-        for (int i = 0; i < n; i++) {
-            int index = Arrays.binarySearch(arr, 0, arr.length - 1, x - arr[i]);
-            if (index != i && index>=0) {
-                System.out.println("YES");
-                check = true;
-                break;
+        for (int i = 0; i < 26; i++) {
+            int x = freq[i];
+            for (int j = 0; j < x; j++) {
+                System.out.print((char) ('a' + i));
             }
-
         }
-        if (!check)
-            System.out.println("NO");
-
     }
+
+
 }
