@@ -7,6 +7,7 @@ import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
+
 /**
  * not yet
  */
@@ -14,10 +15,11 @@ import java.util.List;
 //http://www.usaco.org/index.php?page=viewproblem2&cpid=591
 public class PromotionCounting {
     public static void main(String[] args) {
-        ArrayList<String> input=new ArrayList<>();
-        bufferReaderToList("",input);
+        ArrayList<String> input = new ArrayList<>();
+        bufferReaderToList("", input);
 
     }
+
     private static List<String> bufferReaderToList(String path, List<String> list) {
         try {
             final BufferedReader in = new BufferedReader(

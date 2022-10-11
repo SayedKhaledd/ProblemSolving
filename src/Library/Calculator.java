@@ -1,4 +1,4 @@
-/* package whatever; // don't place package name! */
+package Library;/* package whatever; // don't place package name! */
 
 import java.util.*;
 import java.lang.*;

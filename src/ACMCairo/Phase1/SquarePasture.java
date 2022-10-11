@@ -9,6 +9,7 @@ import java.util.List;
 public class  SquarePasture {
     public static void main(String[] args) throws IOException {
         ArrayList<String> input = new ArrayList<>();
+        File f=new File("G:\\Github\\ProblemSolving\\src\\ACMCairo\\Phase1\\squarepasture.in");
         bufferReaderToList("src/ACMCairo/Phase1/squarepasture.in", input);
         int x1, y1, x2, y2;
         int l1, o1, l2, o2;
