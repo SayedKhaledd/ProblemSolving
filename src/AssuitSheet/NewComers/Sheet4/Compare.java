@@ -1,4 +1,4 @@
-package AssuitSheet.Sheet4;
+package AssuitSheet.NewComers.Sheet4;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package AssuitSheet;
+package AssuitSheet.Contest1;
 /**
  * not yet
  */

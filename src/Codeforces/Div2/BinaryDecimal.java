@@ -1,3 +1,5 @@
+package Codeforces.Div2;
+
 import java.util.Scanner;
 
 //https://codeforces.com/contest/1530/problem/A

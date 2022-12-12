@@ -1,4 +1,4 @@
-//https://codeforces.com/contest/381/problem/A
+package Codeforces.Div2;//https://codeforces.com/contest/381/problem/A
 
 import java.util.Scanner;
 
