@@ -3,7 +3,7 @@ package AssuitSheet.NewComers.Sheet1;
 import java.util.Scanner;
 
 //https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/Y
-public class TheLast2Digits {
+public class Y {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         long a=scan.nextLong();
