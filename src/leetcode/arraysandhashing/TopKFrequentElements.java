@@ -3,19 +3,15 @@ package leetcode.arraysandhashing;
 import java.util.*;
 
 public class TopKFrequentElements {
-    public static void main(String[] args) {
-        topKFrequent(new int[]{1, -1, -1, -5, 2, 2, -1}, 1);
-    }
-
-    public static int[] topKFrequent(int[] nums, int k) {
-        final int MAX = 10000;
-        int[] freq = new int[MAX * 3];
+    public int[] topKFrequent(int[] nums, int k) {
+        final int MAX = 10001;
+        int[] freq = new int[MAX * 2];
         for (int i = 0; i < nums.length; i++) {
             int x = nums[i];
             if (x >= 0)
                 freq[x]++;
             else
-                freq[x * -2 + MAX]++;
+                freq[x * -1 + MAX]++;
         }
         int[] result = new int[k];
         for (int i = 0; i < k; i++) {
@@ -28,7 +24,7 @@ public class TopKFrequentElements {
             }
             freq[maxIndex] = 0;
             if (maxIndex > MAX) {
-                result[i] = (maxIndex - MAX) / -2;
+                result[i] = (maxIndex - MAX) / -1;
             } else
                 result[i] = maxIndex;
         }
