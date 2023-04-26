@@ -1,6 +1,7 @@
 package leetcode;
 
 import java.util.Scanner;
+import java.util.function.Function;
 
 public class test {
     public static void main(String[] args) {
@@ -35,6 +36,9 @@ public class test {
 //            System.out.println();
 //        }
 
-
+        Function<Integer, Integer> add = x -> {
+            return x + 2;
+        };
+        System.out.println(add.apply(2));
     }
 }
