@@ -4,6 +4,22 @@ import java.util.Scanner;
 import java.util.function.Function;
 
 public class test {
+   static Function<Integer, Integer> add = x -> {
+        return x + 2;
+    };
+    static Function<Integer, Integer> multiply = x -> {
+        return x * 2;
+    };
+    static Function<Integer, Integer> divide = x -> {
+        return x / 2;
+    };
+
+    public static Integer execute(int x) {
+        Function<Integer, Integer> result = add.andThen(multiply).andThen(divide);
+        return result.apply(x);
+    }
+
+
     public static void main(String[] args) {
 //        long[][] arr = new long[100][100];
 //        arr[0][0] = 1;
@@ -36,9 +52,8 @@ public class test {
 //            System.out.println();
 //        }
 
-        Function<Integer, Integer> add = x -> {
-            return x + 2;
-        };
+
         System.out.println(add.apply(2));
+        System.out.println(execute(2));
     }
 }
