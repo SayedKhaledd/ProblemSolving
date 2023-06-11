@@ -5,7 +5,41 @@ public class PermutationInString {
         System.out.println(checkInclusion("adc", "dcda"));
     }
 
+
+    public static boolean compare(int[] arr, int[] arr2) {
+        for (int i = 0; i < 26; i++) {
+            if (arr[i] != arr2[i])
+                return false;
+        }
+        return true;
+    }
+
     public static boolean checkInclusion(String s1, String s2) {
+
+        if (s1.length() > s2.length())
+            return false;
+
+        int[] s1Fre = new int[26];
+        int[] s2Fre = new int[26];
+
+        for (int i = 0; i < s1.length(); i++) {
+            s1Fre[s1.charAt(i) - 'a']++;
+            s2Fre[s2.charAt(i) - 'a']++;
+        }
+
+        for (int i = 0; i < s2.length() - s1.length(); i++) {
+            if (compare(s1Fre, s2Fre)) {
+                return true;
+            }
+            s2Fre[s2.charAt(i) - 'a']--;
+            s2Fre[s2.charAt(i + s1.length()) - 'a']++;
+
+        }
+        return compare(s2Fre, s1Fre);
+
+    }
+
+    public static boolean checkInclusion2(String s1, String s2) {
         int size = s1.length();
         int[] freq = new int[26];
         for (int i = 0; i < s1.length(); i++) {
@@ -59,12 +93,5 @@ public class PermutationInString {
 
     }
 
-    public static boolean compare(int[] arr, int[] arr2) {
-        for (int i = 0; i < 26; i++) {
-            if (arr[i] != arr2[i])
-                return false;
-        }
-        return true;
-    }
 }
 
