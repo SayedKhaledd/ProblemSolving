@@ -50,7 +50,7 @@ public class ValidSudoku {
         for (int i = 0; i < 9; i += 3) {
             for (int j = 0; j < 9; j += 3) {
 
-                if (!(checkRow(board, freq, i, j, i + 2, j + 2, false) )) {
+                if (!(checkRow(board, freq, i, j, i + 2, j + 2, false))) {
                     System.out.println("false here2");
                     System.out.println("my i is " + i + "and my j is " + j);
                     return false;
