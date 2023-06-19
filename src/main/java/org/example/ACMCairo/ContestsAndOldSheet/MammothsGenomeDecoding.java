@@ -1,4 +1,4 @@
-package ACMCairo.ContestsAndOldSheet;
+package org.example.ACMCairo.ContestsAndOldSheet;;
 //https://codeforces.com/contest/747/problem/B
 
 import java.util.*;

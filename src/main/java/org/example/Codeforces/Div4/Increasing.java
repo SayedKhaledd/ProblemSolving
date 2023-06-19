@@ -1,5 +1,5 @@
 
-package Codeforces.Div4;
+package org.example.Codeforces.Div4;
 //https://codeforces.com/contest/1742/problem/A
 
 import java.util.Arrays;

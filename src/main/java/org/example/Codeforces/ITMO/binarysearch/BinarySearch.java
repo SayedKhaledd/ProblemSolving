@@ -1,4 +1,4 @@
-package Codeforces.ITMO.binarysearch;
+package org.example.Codeforces.ITMO.binarysearch;
 
 
 import java.io.*;

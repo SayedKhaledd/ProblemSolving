@@ -1,4 +1,4 @@
-package HackerRank.ProblemSolving;
+package org.example.HackerRank.ProblemSolving;
 
 import java.util.ArrayList;
 import java.util.Scanner;

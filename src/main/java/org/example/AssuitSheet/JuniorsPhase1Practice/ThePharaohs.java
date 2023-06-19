@@ -1,4 +1,4 @@
-package AssuitSheet.JuniorsPhase1Practice;
+package org.example.AssuitSheet.JuniorsPhase1Practice;
 
 import java.io.*;
 import java.util.StringTokenizer;

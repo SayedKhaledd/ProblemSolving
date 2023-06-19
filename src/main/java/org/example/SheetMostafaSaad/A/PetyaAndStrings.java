@@ -1,4 +1,4 @@
-package SheetMostafaSaad.A;
+package org.example.SheetMostafaSaad.A;
 
 import java.util.Scanner;
 

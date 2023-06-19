@@ -1,4 +1,4 @@
-package AssuitSheet;
+package org.example.AssuitSheet;
 //https://codeforces.com/group/MWSDmqGsZm/contest/326175/problem/I
 
 import java.util.Scanner;

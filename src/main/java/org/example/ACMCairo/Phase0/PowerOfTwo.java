@@ -1,4 +1,4 @@
-package ACMCairo.Phase0;
+package org.example.ACMCairo.Phase0;
 
 import java.util.Arrays;
 import java.util.Scanner;

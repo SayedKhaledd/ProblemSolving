@@ -1,4 +1,4 @@
-package leetcode.arraysandhashing;
+package org.example.leetcode.arraysandhashing;
 
 public class ProductOfArrayExceptSelf {
 

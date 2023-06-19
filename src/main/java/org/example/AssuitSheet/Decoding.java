@@ -1,4 +1,4 @@
-package AssuitSheet;
+package org.example.AssuitSheet;
 
 import java.io.*;
 import java.util.StringTokenizer;

@@ -1,4 +1,4 @@
-package HackerRank.ProblemSolving;
+package org.example.HackerRank.ProblemSolving;
 //https://www.hackerrank.com/challenges/a-very-big-sum/problem
 
 import java.io.*;

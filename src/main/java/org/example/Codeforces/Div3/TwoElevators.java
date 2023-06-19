@@ -1,4 +1,4 @@
-package Codeforces.Div3;
+package org.example.Codeforces.Div3;
 //https://codeforces.com/contest/1729/problem/A
 
 import java.util.Scanner;

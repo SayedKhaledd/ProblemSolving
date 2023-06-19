@@ -1,4 +1,4 @@
-package AssuitSheet.JuniorsPhase1Practice;
+package org.example.AssuitSheet.JuniorsPhase1Practice;
 //https://codeforces.com/group/u3Ii79X3NY/contest/270796/problem/I
 import java.util.Scanner;
 

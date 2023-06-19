@@ -1,4 +1,4 @@
-package SPOJ;
+package org.example.SPOJ;
 
 public class Test {
     int

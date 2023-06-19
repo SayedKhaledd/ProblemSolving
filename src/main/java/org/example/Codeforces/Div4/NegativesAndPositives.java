@@ -1,4 +1,4 @@
-package Codeforces.Div4;
+package org.example.Codeforces.Div4;
 /*
  * not yet
  */

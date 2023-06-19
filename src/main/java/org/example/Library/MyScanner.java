@@ -1,4 +1,4 @@
-package Library;
+package org.example.Library;
 
 import java.io.*;
 import java.util.StringTokenizer;

@@ -1,4 +1,4 @@
-package leetcode.linkedlist;
+package org.example.leetcode.linkedlist;
 
 import java.math.BigInteger;
 import java.util.List;

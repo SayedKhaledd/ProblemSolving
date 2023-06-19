@@ -1,4 +1,4 @@
-package SPOJ;
+package org.example.SPOJ;
 /**
  * not yet
  */

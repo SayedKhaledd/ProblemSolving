@@ -1,4 +1,4 @@
-package leetcode.general;
+package org.example.leetcode.general;
 
 public class FindTheHighestAltitude {
     public int largestAltitude(int[] gain) {

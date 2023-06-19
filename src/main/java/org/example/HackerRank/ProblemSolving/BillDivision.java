@@ -1,4 +1,4 @@
-package HackerRank.ProblemSolving;
+package org.example.HackerRank.ProblemSolving;
 //https://www.hackerrank.com/challenges/bon-appetit/problem
 import java.io.*;
 import java.math.*;

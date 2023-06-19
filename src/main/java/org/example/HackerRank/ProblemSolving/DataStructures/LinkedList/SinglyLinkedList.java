@@ -1,4 +1,4 @@
-package HackerRank.ProblemSolving.DataStructures.LinkedList;
+package org.example.HackerRank.ProblemSolving.DataStructures.LinkedList;
 
 import java.io.BufferedWriter;
 import java.io.IOException;

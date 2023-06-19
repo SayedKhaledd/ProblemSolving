@@ -1,4 +1,4 @@
-package leetcode.slidingwindow;
+package org.example.leetcode.slidingwindow;
 
 public class PermutationInString {
     public static void main(String[] args) {

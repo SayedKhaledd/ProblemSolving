@@ -1,4 +1,4 @@
-package HackerRank.InterviewPreparationKit.Recusrion;
+package org.example.HackerRank.InterviewPreparationKit.Recusrion;
 
 import java.io.BufferedReader;
 import java.io.IOException;

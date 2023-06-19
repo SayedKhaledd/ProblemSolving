@@ -1,4 +1,4 @@
-package HackerRank.ProblemSolving;
+package org.example.HackerRank.ProblemSolving;
 
 //https://www.hackerrank.com/challenges/recursive-digit-sum/problem
 

@@ -1,4 +1,4 @@
-package ACMCairo.Phase1;
+package org.example.ACMCairo.Phase1;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;

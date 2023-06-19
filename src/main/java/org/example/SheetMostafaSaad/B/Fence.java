@@ -1,4 +1,4 @@
-package SheetMostafaSaad.B;
+package org.example.SheetMostafaSaad.B;
 
 import java.io.*;
 import java.util.StringTokenizer;

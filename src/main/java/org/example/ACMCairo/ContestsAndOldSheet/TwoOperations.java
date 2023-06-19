@@ -1,4 +1,4 @@
-package ACMCairo.ContestsAndOldSheet;
+package org.example.ACMCairo.ContestsAndOldSheet;;
 //https://codeforces.com/gym/102263/problem/M
 
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package ACMCairo.Phase0;
+package org.example.ACMCairo.Phase0;
 //https://codeforces.com/group/MWSDmqGsZm/contest/223339/problem/L
 import java.util.Scanner;
 

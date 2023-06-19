@@ -1,4 +1,4 @@
-package AssuitSheet.NewComers.Sheet3;
+package org.example.AssuitSheet.NewComers.Sheet3;
 
 
 //https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/N

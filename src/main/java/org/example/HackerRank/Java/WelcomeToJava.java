@@ -1,4 +1,4 @@
-package HackerRank.Java;
+package org.example.HackerRank.Java;
 //https://www.hackerrank.com/challenges/welcome-to-java/problem
 
 public class WelcomeToJava {

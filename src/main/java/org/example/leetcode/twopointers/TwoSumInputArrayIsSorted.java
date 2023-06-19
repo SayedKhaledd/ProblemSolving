@@ -1,4 +1,4 @@
-package leetcode.twopointers;
+package org.example.leetcode.twopointers;
 
 public class TwoSumInputArrayIsSorted {
     public int[] twoSum(int[] numbers, int target) {

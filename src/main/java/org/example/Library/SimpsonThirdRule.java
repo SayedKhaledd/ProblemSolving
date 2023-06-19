@@ -1,4 +1,4 @@
-package Library;
+package org.example.Library;
 
 public class SimpsonThirdRule {
     public static void main(String[] args) {

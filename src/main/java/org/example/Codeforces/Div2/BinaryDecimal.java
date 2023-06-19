@@ -1,4 +1,4 @@
-package Codeforces.Div2;
+package org.example.Codeforces.Div2;
 
 import java.util.Scanner;
 
