@@ -22,25 +22,24 @@ public class ValidParentheses {
                 stack.push(s.charAt(i));
             else if (s.charAt(i) == CLOSED_CURLY_BRACKET || s.charAt(i) == CLOSED_ROUND_BRACKET || s.charAt(i) == CLOSED_SQUARE_BRACKET) {
                 switch (stack.peek()) {
-                    case OPEN_ROUND_BRACKET:
+                    case OPEN_ROUND_BRACKET -> {
                         if (s.charAt(i) == CLOSED_ROUND_BRACKET)
                             stack.pop();
                         else
                             return false;
-                        break;
-                    case OPEN_CURLY_BRACKET:
+                    }
+                    case OPEN_CURLY_BRACKET -> {
                         if (s.charAt(i) == CLOSED_CURLY_BRACKET)
                             stack.pop();
                         else
                             return false;
-                        break;
-                    case OPEN_SQUARE_BRACKET:
+                    }
+                    case OPEN_SQUARE_BRACKET -> {
                         if (s.charAt(i) == CLOSED_SQUARE_BRACKET)
                             stack.pop();
                         else
                             return false;
-                        break;
-
+                    }
                 }
             } else {
                 stack.push(s.charAt(i));

@@ -6,6 +6,8 @@ import java.util.*;
 public class ThreeSum {
 
     public static void main(String[] args) {
+        System.out.println(UUID.randomUUID().toString() + System.currentTimeMillis());
+        System.out.println(UUID.randomUUID().toString());
 //        Scanner scan = new Scanner(System.in);
 //        int n = scan.nextInt();
 //        int[] arr = new int[n];
