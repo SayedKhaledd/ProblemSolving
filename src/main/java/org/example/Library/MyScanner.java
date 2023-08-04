@@ -4,9 +4,9 @@ import java.io.*;
 import java.util.StringTokenizer;
 
 public class MyScanner {
-    static StringTokenizer st;
-    static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-    static PrintWriter pt = new PrintWriter(new BufferedWriter(new OutputStreamWriter(System.out)));
+    public static StringTokenizer st;
+    public static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+    public static PrintWriter pt = new PrintWriter(new BufferedWriter(new OutputStreamWriter(System.out)));
 
     public static String next() throws IOException {
         while (st == null || !st.hasMoreTokens())
