@@ -1,7 +1,6 @@
 package org.example.ACMCairo.Phase1;
 
 import java.util.Arrays;
-import java.util.HashSet;
 import java.util.Scanner;
 
 public class DistinctNumbers {

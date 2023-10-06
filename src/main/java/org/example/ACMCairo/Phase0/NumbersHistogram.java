@@ -2,7 +2,7 @@ package org.example.ACMCairo.Phase0;
 
 //https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/N
 
-import java.util.*;
+import java.util.Scanner;
 
 public class NumbersHistogram {
 

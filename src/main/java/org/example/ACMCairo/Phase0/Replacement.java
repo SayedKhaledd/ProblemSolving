@@ -1,7 +1,7 @@
 package org.example.ACMCairo.Phase0;
 //https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/C
 
-import java.util.*;
+import java.util.Scanner;
 
 
 public class Replacement {

@@ -1,9 +1,10 @@
-package org.example.ACMCairo.ContestsAndOldSheet;;
-//https://codeforces.com/gym/102263/problem/M
+package org.example.ACMCairo.ContestsAndOldSheet;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
+
+;
 
 public class TwoOperations {
     public static void main(String[] args) throws IOException {

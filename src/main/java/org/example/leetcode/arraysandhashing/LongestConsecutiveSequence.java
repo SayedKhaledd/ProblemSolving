@@ -1,7 +1,6 @@
 package org.example.leetcode.arraysandhashing;
 
 import java.util.Arrays;
-import java.util.HashSet;
 
 public class LongestConsecutiveSequence {
     public static void main(String[] args) {

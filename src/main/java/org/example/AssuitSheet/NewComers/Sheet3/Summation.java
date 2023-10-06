@@ -1,7 +1,7 @@
 package org.example.AssuitSheet.NewComers.Sheet3;
 
 
-import java.util.*;
+import java.util.Scanner;
 
 public class Summation
 {

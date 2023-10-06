@@ -3,7 +3,6 @@ package org.example.AssuitSheet.Contest1;
  * not yet
  */
 
-import java.math.BigDecimal;
 import java.util.Scanner;
 
 //https://codeforces.com/group/MWSDmqGsZm/contest/326175/problem/D

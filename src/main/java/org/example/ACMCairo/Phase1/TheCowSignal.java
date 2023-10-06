@@ -3,11 +3,6 @@ package org.example.ACMCairo.Phase1;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
-
-
-//http://www.usaco.org/index.php?page=viewproblem2&cpid=665
-
-import java.io.IOException;
 import java.util.List;
 
 

@@ -1,6 +1,5 @@
 package org.example.ACMCairo.Phase0;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 //https://codeforces.com/group/MWSDmqGsZm/contest/223338/problem/A

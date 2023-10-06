@@ -1,7 +1,5 @@
 package org.example.leetcode.arraysandhashing;
 
-import java.util.*;
-
 public class TopKFrequentElements {
     public int[] topKFrequent(int[] nums, int k) {
         final int MAX = 10001;

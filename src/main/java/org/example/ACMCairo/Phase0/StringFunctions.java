@@ -1,7 +1,8 @@
 package org.example.ACMCairo.Phase0;
 //https://codeforces.com/group/MWSDmqGsZm/contest/219856/problem/L
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.Scanner;
 
 
 public class StringFunctions {

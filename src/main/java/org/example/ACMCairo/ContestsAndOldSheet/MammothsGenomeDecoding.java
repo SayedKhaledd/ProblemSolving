@@ -1,7 +1,8 @@
-package org.example.ACMCairo.ContestsAndOldSheet;;
-//https://codeforces.com/contest/747/problem/B
+package org.example.ACMCairo.ContestsAndOldSheet;
 
-import java.util.*;
+import java.util.Scanner;
+
+;
 
 public class MammothsGenomeDecoding {
 

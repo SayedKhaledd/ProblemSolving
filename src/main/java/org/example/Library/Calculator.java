@@ -1,8 +1,7 @@
 package org.example.Library;/* package whatever; // don't place package name! */
 
-import java.util.*;
-import java.lang.*;
-import java.io.*;
+import java.util.Scanner;
+import java.util.Stack;
 
 public class Calculator {
     public static void main(String[] args) throws java.lang.Exception {

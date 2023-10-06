@@ -1,8 +1,8 @@
-package org.example.ACMCairo.ContestsAndOldSheet;;
-//https://codeforces.com/contest/499/problem/A
+package org.example.ACMCairo.ContestsAndOldSheet;
 
-import java.util.Arrays;
 import java.util.Scanner;
+
+;
 
 public class WatchingAMovie {
 

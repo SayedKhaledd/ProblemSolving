@@ -1,8 +1,5 @@
 package org.example.leetcode.linkedlist;
 
-import java.math.BigInteger;
-import java.util.List;
-
 /*
  * not yet
  * */

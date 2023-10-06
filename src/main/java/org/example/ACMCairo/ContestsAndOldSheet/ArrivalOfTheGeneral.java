@@ -2,7 +2,7 @@ package org.example.ACMCairo.ContestsAndOldSheet;
 //https://codeforces.com/contest/144/problem/A
 
 
-import java.util.*;
+import java.util.Scanner;
 
 public class ArrivalOfTheGeneral {
 

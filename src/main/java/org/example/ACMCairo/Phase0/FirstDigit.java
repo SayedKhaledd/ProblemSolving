@@ -2,7 +2,7 @@ package org.example.ACMCairo.Phase0;
 
 //https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/P
 
-import java.util.*;
+import java.util.Scanner;
 
 public class FirstDigit {
     public static void main(String[] args) {

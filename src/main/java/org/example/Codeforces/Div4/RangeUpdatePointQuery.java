@@ -1,7 +1,6 @@
 package org.example.Codeforces.Div4;
 
 import java.io.*;
-import java.util.Scanner;
 import java.util.StringTokenizer;
 
 /***

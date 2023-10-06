@@ -1,8 +1,8 @@
-package org.example.ACMCairo.ContestsAndOldSheet;;
+package org.example.ACMCairo.ContestsAndOldSheet;
 
-//https://codeforces.com/contest/1454/problem/B
+import java.util.Scanner;
 
-import java.util.*;
+;
 
 public class UniqueBidAuction {
 

@@ -7,6 +7,8 @@
     <groupId>org.example</groupId>
     <artifactId>ProblemSolving</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <systemPath>/main/resources/stdlib-0.8.0.jar</systemPath>
+
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>

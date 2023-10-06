@@ -1,8 +1,6 @@
 package org.example.ACMCairo.Phase0;
 //https://codeforces.com/group/MWSDmqGsZm/contest/223338/problem/D
 
-import java.math.BigDecimal;
-import java.util.ArrayList;
 import java.util.Scanner;
 
 

@@ -1,8 +1,8 @@
-package org.example.ACMCairo.ContestsAndOldSheet;;
-
-//https://codeforces.com/contest/1451/problem/A
+package org.example.ACMCairo.ContestsAndOldSheet;
 
 import java.util.Scanner;
+
+;
 
 public class SubtractOrDivide {
 

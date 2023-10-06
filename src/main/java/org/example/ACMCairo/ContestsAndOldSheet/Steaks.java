@@ -1,9 +1,10 @@
-package org.example.ACMCairo.ContestsAndOldSheet;;
-//https://codeforces.com/gym/102263/problem/H
+package org.example.ACMCairo.ContestsAndOldSheet;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+
+;
 
 public class Steaks {
     public static void main(String[] args) throws IOException {

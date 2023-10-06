@@ -1,6 +1,6 @@
 package org.example.AssuitSheet.NewComers.Sheet4;
 
-import java.util.*;
+import java.util.Scanner;
 
 //https://codeforces.com/group/MWSDmqGsZm/contest/219856/problem/I
 public class Palindrome {
