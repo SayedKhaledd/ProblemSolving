@@ -14,4 +14,7 @@ public class TheatreSquare {
 
         System.out.println((long) (Math.ceil(m / (double) a) * Math.ceil(n / (double) a)));
     }
+    static void t(){
+
+    }
 }
