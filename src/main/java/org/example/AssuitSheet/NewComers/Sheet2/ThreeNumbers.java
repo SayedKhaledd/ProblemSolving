@@ -10,13 +10,11 @@ public class ThreeNumbers {
         int s = scan.nextInt();
         int counter = 0;
 
-        for(int i=0;i<=k;i++){
-            for(int j=0;j<=k;j++){
-                if(i+j==s){
+        for (int i = 0; i <= k; i++) {
+            for (int j = 0; j <= k; j++) {
+                if (i + j == s) {
                     counter++;
-                }
-                 else if((s-(i+j))<=k && (s-(i+j))>=0 ){
-
+                } else if ((s - (i + j)) <= k && (s - (i + j)) >= 0) {
                     counter++;
                 }
 

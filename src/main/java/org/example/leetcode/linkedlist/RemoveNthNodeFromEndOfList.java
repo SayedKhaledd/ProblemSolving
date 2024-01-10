@@ -39,20 +39,21 @@ public class RemoveNthNodeFromEndOfList {
         return head;
     }
 
-    class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
+    public ListNode removeNthFromEndSecondSolution(ListNode head, int n) {
+        ListNode temp = head;
+        ListNode temp2 = head;
+        int i = 0;
+        while (temp != null) {
+            if (i > n) {
+                temp2 = temp2.next;
+            }
+            temp = temp.next;
+            i++;
         }
-
-        ListNode(int val) {
-            this.val = val;
+        if (i == n) {
+            return head.next;
         }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
+        temp2.next = temp2.next.next;
+        return head;
     }
 }
