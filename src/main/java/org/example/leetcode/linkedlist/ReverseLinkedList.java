@@ -2,9 +2,9 @@ package org.example.leetcode.linkedlist;
 
 public class ReverseLinkedList {
     public ListNode reverseList(ListNode head) {
-        ListNode prev = null, current = head;
+        ListNode prev = null, current = head, next;
         while (current != null) {
-            ListNode next = current.next;
+            next = current.next;
             current.next = prev;
 
             prev = current;
@@ -15,7 +15,6 @@ public class ReverseLinkedList {
 
         return prev;
     }
-
 
 
 }
